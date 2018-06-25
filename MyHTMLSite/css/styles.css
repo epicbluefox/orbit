@@ -1,0 +1,36 @@
+body {font-family: "Lato", sans-serif;}
+body,html {
+    height: 100%;
+    background-color: lightgray;
+    line-height: 1.8;
+}
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('https://static.wixstatic.com/media/c2fcac_2c1c8c16995448559c120f2d81ed47ab~mv2_d_8029_3496_s_4_2.jpg_srz_980_427_85_22_0.50_1.20_0.00_jpg_srz');
+    min-height: 100%;
+ 
+}
+
+
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+hr{
+  padding-bottom:2px;
+  margin-bottom:20px;
+  Background-color:black;
+}
+iframe{
+ margin-left:25px;
+  margin-top:15px;
+}
+

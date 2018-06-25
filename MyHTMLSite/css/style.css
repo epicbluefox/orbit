@@ -1,0 +1,43 @@
+h1{
+    text-align:right;
+    border-style:Transparent; 
+     padding-top: 70px;
+  
+  }
+  h3{
+    
+     background-color:blue;
+     padding-top: 10px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+    
+  }
+  p{
+    border-style:single;
+      margin-top:70px;
+    background-color:lightgray;
+    border-width: thick;
+    text-align: center;
+    font-size:155%;
+    
+     margin-left:400px;
+     
+    padding:10px;
+    
+  }
+  
+  h4{
+    background-color:lightblue;
+    padding-top: 10px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+      padding-left: 60px;
+  
+  }
+  img{
+    margin-top:60px;
+    margin-left:70px;
+    margin-right:50px;
+  }
+  

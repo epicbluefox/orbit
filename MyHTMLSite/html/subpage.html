@@ -1,0 +1,241 @@
+<html>
+        <head><link rel="stylesheet" href="../css/style.css" ></head> 
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+body, html {
+    height: 100%;
+    
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+  .bgimg-1 {
+   background-image:url("https://s-media-cache-ak0.pinimg.com/736x/17/bd/7c/17bd7ce51738c4d0d1478003aff5e00e.jpg");
+    min-height: 100%;
+    
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("http://www.ielts-mentor.com/images/articleImages/ielts-bar-graph-example.png");
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("http://www.strictlyebusinessexpo.com/wp-content/uploads/2017/01/Online-Marketing-And-Advertising.jpg");
+    min-height: 400px;
+}
+  /*Fourth image (Next) */
+  .bgimg-4 {
+    background-image: url("data:image/png;base64,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");
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <ul class="w3-navbar" id="myNavbar">
+    <li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
+      <a class="black" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+        <i class="fa fa-bars"></i>
+      </a>
+    </li>
+    <li class="w3-left-align"><a href="homepage.html"><i class="fa-fa-home"></i>HOME</a></li>
+    <li class="w3-hide-small"><a href="#about"><i class="fa fa-user"></i> STORY</a></li>
+    <li class="w3-hide-small"><a href="#portfolio"><i class="fa fa-th"></i> DATA</a></li>
+    <li class="w3-hide-small"><a href="#contact"><i class="fa fa-code"></i> NEXT</a></li>
+    <li class="w3-hide-small">
+      <a href="#next" class="w3-hover-red">
+        <i class="fa fa-check-square"></i>VALIDITY</a></i>
+
+      </a>
+    </li>
+  </ul>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium">
+    <ul class="w3-navbar w3-left-align w3-white">
+      <li><a href="#about" onclick="toggleFunction()">ABOUT</a></li>
+      <li><a href="#portfolio" onclick="toggleFunction()">EDUCATION</a></li>
+      <li <h1>Janeal Sanchez</h1>><a href="#contact" onclick="toggleFunction()">SALARY</a></li>
+      <li><a href="#next">VALIDITY</a></li>
+    </ul>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-left" style="white-space:nowrap;"><h1>BY Janeal and Elena</h1>
+    <span class="w3-center w3-padding-xlarge w3-black w3-xlarge w3-wide w3-animate-opacity">PSYCHOLOGY OF GRAPHIC DESIGN <span class="w3-hide-small"></span> </span>
+  </div>
+   
+</div>
+
+<!-- Container (About Section) -->
+<div class="content  w3-padding-64" id="about">
+  <h3 class="w3-center">Graphic Design + Psychology</h3>
+  <img src="http://www.coloradomesa.edu/social-behavioral-sciences/images/human-1211467.png" style="width:200px;height:230px;" align="left"> 
+  
+  <p  >Story:<br>Graphic design surrounds us. We see it in poster, products, packaging, and ads. Why do these images look the way they do? What draws people's eyes? What in the human brain makes humans more inclined to certain designs?</p>
+  
+    </div>
+  </div>
+   
+
+  <div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-black w3-wide">Data</span>
+  </div>
+</div>
+
+
+<!-- Container (Portfolio Section) -->
+
+  
+  <a href="http://tinypic.com?ref=im8dgx" target="_blank"><img src="http://i63.tinypic.com/im8dgx.png" border="0" alt="Image and video hosting by TinyPic" align="right"></a><a href="http://tinypic.com?ref=141i15k" target="_blank"><img src="http://i68.tinypic.com/141i15k.png" border="0" alt="Image and video hosting by TinyPic"></a><a href="http://tinypic.com?ref=29zal2e" target="_blank"><img src="http://i67.tinypic.com/29zal2e.png" border="0" alt="Image and video hosting by TinyPic" align="right"></a><a href="http://tinypic.com?ref=256bhjq" target="_blank"><img src="http://i65.tinypic.com/256bhjq.png" border="0" alt="Image and video hosting by TinyPic"></a>
+</div>
+  
+ 
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-closebtn w3-text-white w3-opacity w3-hover-opacity-off w3-xxlarge w3-container w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-black w3-wide">Next</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="content w3-padding-64" id="contact">
+  <h3 class="w3-center">Target Marketing/Ads.</h3>
+  
+<p>
+Next Step:<br> The data from our study could be needed to develop targeted ads for Lincoln students. we were able to conclude that simple bold modern designs capture students attention. Marketing things to students can be much more efficient with this information. 
+
+</p>
+
+
+      </div>
+      </div>
+    <div class="bgimg-4 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-light-grey w3-wide">Validity</span>
+  </div>
+</div>
+  <div class=" w3-container w3-padding-64" id="validity"><h4 class="w3-center">Validity</h4>
+    <p> Validity:<br>A group of 30 Lincoln students took our survey.<br>So the data can be applied to Lincoln students. These students were given options between images and asked about different aspects of the images. </p>
+    <hr>
+    <hr>
+    <hr>
+
+</body>
+</html>
+
+
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-btn w3-padding w3-light-grey w3-hover-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+  
+  
+ <p class="w3-left">Supporting research:<br><a href="https://www.digitalartsonline.co.uk/features/graphic-design/psychology-of-design-explained/"class="w3-hover-text-green" >psychology-of-design-explained</a><br>
+  <a href="http://blog.logodesignguru.com/psychology-behind-graphic-design/"class="w3-hover-text-blue" >psychology-behind-graphic-design</a><br>
+  <a href="http://3.7designs.co/blog/2012/08/10-psychological-principles-to-design-with/"class="w3-hover-text-yellow" >psychological-principles-to-design</a>
+
+</p>
+   </div>  
+</footer>
+ 
+<!-- Add Google Maps -->
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script>
+// Google Map Location
+var myCenter = new google.maps.LatLng(41.878114, -87.629798);
+
+function initialize() {
+var mapProp = {
+  center: myCenter,
+  zoom: 12,
+  scrollwheel: false,
+  draggable: false,
+  mapTypeId: google.maps.MapTypeId.ROADMAP
+  };
+
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var marker = new google.maps.Marker({
+  position: myCenter,
+});
+
+marker.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-navbar" + " w3-card-2" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card-2 w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>

@@ -4,10 +4,10 @@ document.addEventListener('DOMContentLoaded', function(event) {
     div1.addEventListener('click', function() {
         clicks++;
         div1.innerHTML = 'Clicked! ' + clicks + ' times!';
-        if (clicks >= 10){
+        if (clicks >= 20){
             div1.innerHTML = 'Clicked! ' + clicks + ' wow!';
         }
-        if (clicks >= 50){
+        if (clicks >= 100){
             div1.innerHTML = 'STOP! ' + clicks + ' you need help!';
         }
     });  

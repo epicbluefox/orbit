@@ -60,13 +60,52 @@ figure.show{
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
 }
-p{
-  margin: 10px 20px;
-  color: #fff;
-}
+
+
 a{color:#fff;}
 
-form{
-padding-left:560px;
-margin-top:1%;
+ form{
+text-align: center;
+padding-top: 100px;
+font-size:30px;
+}
+select{
+  font-size:20px;
+  
+}
+#Submit{
+  font-size:20px;
+  
+}
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  display:absolute; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+ 
+  background-color: rgba(transparent); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  /* Add a pointer on hover */
+}
+h1{
+  color:white;
+  text-align: center;
+  padding-bottom:40px;
+  text-shadow: 2px 2px 5px black;
+  
+}
+
+#helo{
+  color:lightyellow;
+  font-family: "Arial Black", Gadget, sans-serif;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+}
+#wat{
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 1px 1px 2px white, 0 0 25px lightblue, 0 0 5px white;
+}
+#yell{
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 1px 1px 2px white, 0 0 25px lightblue, 0 0 5px white;
 }

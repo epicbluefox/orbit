@@ -1,43 +1,65 @@
-<html> 
+<html>
 <header>
-        <link rel="stylesheet" href="css/sky.css" >
-        <script type="text/javascript" src="js/working.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"> </script>
+    <link rel="stylesheet" href="css/sky.css">
+    <script type="text/javascript" src="js/working.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"> </script>
+</header>
+
+<body id="body">
+    
+    <div class="diy-slideshow">
+            
+            <div id="overlay">
+                    <form id="my-forma">
+                            <h1>The Weather Site</h1>
+                            <p id="wat">Date:</p><p id="yell">Temp:</p>
+                            <select name="city" id="city">
+                                <option value="HO" id="HO">Honolulu, HI</option>
+                                <option value="SF" id="SF">San Francisco, CA</option>
+                                <option value="AS" id="AS">Austin, TX</option>
+                                <option value="CH" id="CH">Chicago, IL</option>
+                                <option value="NY" id="NY">New York, NY</option>
+                                <option value="SJ" id="SJ">San Jose, CA</option>
+                                <option value="AN" id="AN">Anchorage, AK</option>
+                            </select>
+                            <div>
+                                <input type="submit" value="Get Weather" id="Submit">
+                            </div>
+                        
+                            <p id="helo">
+                                <br>Today's Weather is:</p>
+                    </form>
+                </div>    
+        <figure class="show" id="mlem">
+            <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/rNrXtV_4liwz7cbs5/turquoise-water-in-calm-bay-of-honolulu-hawaii-with-diamond-head-background-on-sunshine-weather_rlyoy9rlg_thumbnail-full06.png"
+                width="100%" height="90%" id="img" />
+        </figure>
+        <figure>
+            <img src="http://backgroundcheckall.com/wp-content/uploads/2017/12/san-francisco-background-4.jpg" 
+            width="100%" height="90%" id="img"
+            />
+        </figure>
+        <figure>
+            <img src="https://static1.squarespace.com/static/5585cdbce4b0c2994bace399/t/5585da8de4b034e58f523abf/1434853678869/?format=1500w"
+                width="100%" height="90%" id="img" />
+        </figure>
+        <figure>
+            <img src="https://images7.alphacoders.com/437/437679.jpg" width="100%" height="90%" id="img" />
+        </figure>
+        <figure>
+            <img src="http://www.hireright.com/blog/wp-content/uploads/2015/08/nyc-background-screening-regulations.jpg" width="100%" height="90%"
+                id="img" />
+        </figure>
+        <figure>
+            <img src="http://pics4.city-data.com/cpicv/vfiles9598.jpg" width="100%" height="90%" id="img" />
+        </figure>
+        <figure>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Anchorage_on_an_April_evening.jpg/1200px-Anchorage_on_an_April_evening.jpg"
+                width="100%" height="90%" id="img" />
+        </figure>
+        <span class="prev">&laquo;</span>
+        <span class="next">&raquo;</span>
         
- </header>       
-
-        <body id="body">
-            <div class="diy-slideshow">
-
-                     
-
-                            <form id="my-forma">
-                                <select name="city" id="city">
-                                        <option value="HO" id="HO">Honolulu, HI</option>
-                                        <option value="SF" id="SF">San Francisco, CA</option>
-                                        <option value="AS" id="AS">Austin, TX</option>
-                                        <option value="CH" id="CH">Chicago, IL</option>
-                                        <option value="NY" id="NY">New York, NY</option>
-                                        <option value="SJ" id="SJ">San Jose, CA</option>
-                                        <option value="AN" id="AN">Anchorage, AK</option>
-                                </select>        
-                                       <div>     
-                                        <input type="submit" value="Get Weather" id="Submit">   
-                                        </div>         
-                                </select>
-                                <p id="helo"><br>Today's Weather is:  </p> 
-                            </form>            
-                     
-
-
-
-                <figure class="show" id="mlem">
-                    <img src="http://themarklee.com/wp-content/uploads/2013/12/snowying.jpg" width="100%" id="img" />
-                </figure>           
-                <figure>
-                    <img src="http://themarklee.com/wp-content/uploads/2013/12/starlight.jpg" width="100%" id="img"/>              
-                </figure>       
-                <span class="prev">&laquo;</span>
-                <span class="next">&raquo;</span>
-            </div>
-        </body>
+    </div>
+</body>
+</html>

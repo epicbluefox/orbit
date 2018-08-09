@@ -1,0 +1,54 @@
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="../static/css/styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="../static/js/main.js"></script>
+</head>
+
+<title>Cookies!</title>
+<body style="background-color:rgb(161, 244, 255);">
+  <h1 id="table">The Cookie Table</h1>
+  <table style="width:20%; background-color:rgb(97, 231, 148); border-style:dotted; border-width:2px ">
+
+    <tr align="left" id="tr">
+      <th>Name</th>
+      <th>Rate</th>
+    </tr>
+    {% for x in cookies %}
+    <tr>
+      <td>{{x.name}}</td>
+      <td>{{x.rating}}</td>
+    </tr>
+    {% endfor %}
+  </table>
+  <br>
+  <form id="form" >
+    <fieldset>
+      <div>
+        <label>Name Of Cookie:</label>
+        <input id="input" type="text" name="name">
+        <select id="select" name="rate">
+          <option value="one" selected>1</option>
+          <option value="two">2</option>
+          <option value="three">3</option>
+          <option value="four">4</option>
+          <option value="five">5</option>
+          <option value="six">6</option>
+          <option value="seven">7</option>
+          <option value="eight">8</option>
+          <option value="nine">9</option>
+          <option value="ten">10</option>
+        </select>
+        <input id="submit" type="submit" value="Add Cookie!" name="message">
+      </div>
+    </fieldset>
+  </form>
+  <div id ="message">
+    
+  </div>
+
+
+</body>
+
+</html>
